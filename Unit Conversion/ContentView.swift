@@ -53,7 +53,7 @@ struct ContentView: View {
                 .pickerStyle(SegmentedPickerStyle())
                 }
                 
-                Section(header: Text("Enter lenght")) {
+                Section(header: Text("Enter length")) {
                     TextField("0", text: $length)
                         .keyboardType(.decimalPad)
                 }
